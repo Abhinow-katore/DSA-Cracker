@@ -1,0 +1,14 @@
+SET: Can only store unique values, 
+     And does not maintain order
+- HashSet can have null, order is not guaranteed
+- LinkedHashSet can have null and keeps the order 
+- TreeSet sorts the order and don't accept null 
+
+       
+MAP : is a (key-value format) 
+      and keys are always unique, 
+      and value can be duplicated. 
+- HashTable don't have null key, sychronized(thread-safe)
+- LinkedHashMap can have null key, keeps order
+- HasHMap can have null key, order is not guaranteed
+- TreeMap doesn't have null key and keys are sorted
